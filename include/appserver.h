@@ -266,10 +266,10 @@ public:
   ///                        or transaction timeout)
   virtual void on_cancel(int status_code) {}
 
-protected:
   /// Constructor.
   AppServerTsx(AppServerTsxHelper* helper) : _helper(helper) {}
 
+protected:
   /// Adds the service to the underlying SIP dialog with the specified dialog
   /// identifier.
   ///
